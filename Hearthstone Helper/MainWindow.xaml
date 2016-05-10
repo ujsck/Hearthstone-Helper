@@ -6,7 +6,7 @@
         xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns:local="clr-namespace:Hearthstone_Helper"
         mc:Ignorable="d"
-        Title="Hearthstone Helper" Height="350" Width="240">
+        Title="Hearthstone Helper" Height="600" Width="240">
     <Grid>
         <local:CardListView x:Name="ListViewDB"  Background="DimGray" Foreground="White" FontWeight="Bold" BorderThickness="1" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="True" FontFamily="Arial" Margin="0,6,0,6" Width="240" >
             <ListView.Resources>

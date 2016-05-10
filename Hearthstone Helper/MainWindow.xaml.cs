@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Windows;
+using Hearthstone_Helper.Utility;
 using MahApps.Metro.Controls;
 
 namespace Hearthstone_Helper
@@ -12,6 +14,7 @@ namespace Hearthstone_Helper
         public MainWindow()
         {
             InitializeComponent();
+            Version version = XmlHelper<Version>.LoadFile("./Version.xml");
             LoadCardList();
         }
 
