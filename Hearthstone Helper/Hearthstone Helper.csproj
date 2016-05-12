@@ -70,6 +70,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Hearthstone\Deck.cs" />
     <Compile Include="Utility\Version.cs" />
     <Compile Include="Utility\XmlHelper.cs" />
     <Page Include="Controls\CardListView.xaml">
